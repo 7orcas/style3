@@ -1,0 +1,11 @@
+Add : 
+- lookup client function. Provide standard lookup options (eg an entitiy is the child and needs to change parents - say prodStage contains prodAreas and the user wishes to change the parent of a prodArea).
+
+- filter client function. Provide list dialog option to filter list based on parent id(s).
+
+- define layout.
+   - button vs link. Buttons for oft used actions, links for not so oft used actions.
+
+- client web: tab title object. Provide base method to update tab title (eg current document / transaction with number)
+
+- client web: controller config object. Include: tab title, edit functions, etc
