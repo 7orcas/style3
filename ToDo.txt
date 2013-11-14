@@ -2,6 +2,7 @@ Add :
 - lookup client function. Provide standard lookup options (eg an entitiy is the child and needs to change parents - say prodStage contains prodAreas and the user wishes to change the parent of a prodArea).
 
 - filter client function. Provide list dialog option to filter list based on parent id(s).
+- Log filter
 
 - define layout.
    - button vs link. Buttons for oft used actions, links for not so oft used actions.
@@ -9,3 +10,10 @@ Add :
 - client web: tab title object. Provide base method to update tab title (eg current document / transaction with number)
 
 - client web: controller config object. Include: tab title, edit functions, etc
+- client web: dialog controllers - keep column configurations in config object. Allow access to
+              change attributes dynamically, eg visible
+
+- new function: reference fields to be populated (with either context value or the first active value).
+
+- server-audit: log via filter (so it is always done). File log of all updates and deletes.
+                call gteLogMessage(action) on entity, action = from server (update or read (entity will know if save is update/create or delete))
