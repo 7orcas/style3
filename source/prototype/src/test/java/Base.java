@@ -12,7 +12,7 @@ public class Base {
 		GroupRepo r = new GroupRepo();
 		r.loadGroups();
 		assertNotNull(r.getGroups());
-		assertTrue(r.getGroups().size() == 4);
+		assertTrue(r.getGroups().size() == 5);
 		
 	}
 

@@ -28,7 +28,7 @@ public class GroupRepo {
 
     public void print(){
         
-		java.lang.reflect.Field[] fs = Group.class.getFields();
+		
 		for (java.lang.reflect.Field f: Group.class.getFields()) {
 		   Field column = f.getAnnotation(Field.class);
 		   if (column != null)
